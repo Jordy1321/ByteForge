@@ -1,0 +1,23 @@
+{
+  "name": "byteforge-api",
+  "version": "1.0.0",
+  "description": "Backend API for ByteForge idle game",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js",
+    "dev": "nodemon api/server.js"
+  },
+  "keywords": ["idle-game", "api", "bytes", "nodejs", "express"],
+  "author": "ByteForge Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
